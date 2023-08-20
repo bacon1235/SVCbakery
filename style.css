@@ -1,0 +1,122 @@
+@import url(https://fonts.google.com/specimen/Prompt?query=prompt);
+*{
+  font-family: "Prompt", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  height: 35px;
+  min-width: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.wrapper span{
+  width: 25%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 15;
+  cursor: pointer;
+  user-select: none;
+}
+.wrapper span.num{
+  width: 60px;
+  padding: 5px 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+}
+.wrapper span.minus{
+  width: 30px;
+  padding: 5px 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+}
+.wrapper span.plus{
+  width: 30px;
+  padding: 5px 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+}
+
+
+/*
+
+*{
+  font-family: "Prompt", sans-serif;
+}
+.wrapper{
+  bottom: 15px;
+  height: 0px;
+  min-width: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  border-radius: 50px;
+}
+/*.wrapper span{
+  width: 25%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 15;
+  cursor: pointer;
+  user-select: none;
+}
+.wrapper div.num{
+  bottom: 50px;
+  width: 60px;
+  padding: 5px 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+}
+.wrapper div.minus{
+  width: 38px;
+  height: 38px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+}
+.wrapper div.plus{
+  width: 38px;
+  height: 38px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+}
